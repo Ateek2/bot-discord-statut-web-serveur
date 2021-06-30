@@ -1,0 +1,24 @@
+{
+    "bottoken": "", 
+    "setchannel": "", 
+
+    "nameweb0": "",  
+    "ipweb0": "", 
+    "portweb0": "",
+
+    "nameweb1": "",  
+    "ipweb1": "", 
+    "portweb1": "",
+
+    "namevps0": "",  
+    "ipvps0": "", 
+    "portvps0": "",
+
+    "namevps2": "",  
+    "ipvps2": "",
+    "portvps2": "",
+
+    "namenode0": "",  
+    "ipnode0": "",
+    "portnode0": ""
+}
