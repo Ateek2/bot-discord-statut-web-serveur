@@ -67,8 +67,8 @@ vous ne pouvez pas faire de copier coller de ces parametre  car il faut les deff
     "portnode0": "80" < -- le port du node (part default il restea 80)
 }
 ```
-# autre type de configuration 
-le bot feras une actualisation par default de 5 min si vous voullez changer il faudras modifier la ligne ``93`` de ``Index.js``  
+# autre type de configuration dans ``Index.js``  
+a la ligne ``93`` fait une actualisation toute les 5 min
 a la ligne ``58-59`` vous pourez changer le ou la couleur , emojy pour definire le on et off   
 de la ligne ``15 a 31`` definie les variable dans le ``config.json``   
 de la ligne ``60 a 67`` definie si l'ip a repondue au ping ou non   
