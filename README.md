@@ -68,7 +68,7 @@ vous ne pouvez pas faire de copier coller de ces parametre  car il faut les deff
 }
 ```
 # autre type de configuration dans ``Index.js``  
-a la ligne ``93`` fait une actualisation toute les 5 min
+a la ligne ``93`` fait une actualisation toute les 5 min  
 a la ligne ``58-59`` vous pourez changer le ou la couleur , emojy pour definire le on et off   
 de la ligne ``15 a 31`` definie les variable dans le ``config.json``   
 de la ligne ``60 a 67`` definie si l'ip a repondue au ping ou non   
