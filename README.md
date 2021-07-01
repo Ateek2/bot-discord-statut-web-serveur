@@ -4,7 +4,7 @@ si vous voulez plus soutenez moi sur [patreon](https://www.patreon.com/ILowayn) 
 Hebergeur gratuit , ou support sur [NearHost](https://discord.gg/EzUK8ywvWp) lien discord
 
 # information du bot
-le bot et capable d'afficher les statut de vos sites ou serveurs (gmod,fivem,autre) via l'intermédiaire d'un bot Discord.
+le bot et capable d'afficher les statut de vos sites ou serveurs (gmod,fivem,autre)   
 il et tres simple a configure et a modifier . 
 # Image
 la version que vous aurez sera comme ça  
