@@ -2,11 +2,16 @@
 le bot et capable d'afficher les statut de vos sites ou serveurs (gmod,fivem,autre) via l'intermédiaire d'un bot Discord.
 il et tres simple a configure et a modifier . 
 # Image
-la version que vous aurez sera comme ça 
-![](https://github.com/Ateek2/bot-discord-statut-web-serveur/blob/main/image/photo.PNG =x100)
-le bot a etais configure pour qu'il soit comme ça (vous devez modifier le ``index.js`` si vous le voullez comme ça)
-![](https://github.com/Ateek2/bot-discord-statut-web-serveur/blob/main/image/top%201.PNG =x100)
-![](https://github.com/Ateek2/bot-discord-statut-web-serveur/blob/main/image/top%202.PNG =x100)
+la version que vous aurez sera comme ça  
+
+![](https://github.com/Ateek2/bot-discord-statut-web-serveur/blob/main/image/photo.PNG)  
+
+le bot a etais configure pour qu'il soit comme ça (vous devez modifier le ``index.js`` si vous le voullez comme ça)  
+
+![](https://github.com/Ateek2/bot-discord-statut-web-serveur/blob/main/image/top%201.PNG)  
+
+![](https://github.com/Ateek2/bot-discord-statut-web-serveur/blob/main/image/top%202.PNG)  
+
 # pourquoi ce bot ?
 ce genre de bot ce trouver beaucoup dans les serveurs discord de type hebergeur , serveur jeu 
 mais il et privé de tousse je les donc fait pour que les future fondateur ou developeur puisse montre l'etats de leur service comme un panel en ligne ou un site web ou un serveur de jeu
