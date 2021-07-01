@@ -69,4 +69,4 @@ vous ne pouvez pas faire de copier coller de ces parametre  car il faut les deff
 }
 ```
 # autre type de configuration 
-le bot feras une actualisation pas default de 5 min si vous voullez changer il faudras modifier la ligne ``93`` de ``Index.js``
+le bot feras une actualisation par default de 5 min si vous voullez changer il faudras modifier la ligne ``93`` de ``Index.js``
