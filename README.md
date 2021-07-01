@@ -1,6 +1,6 @@
 # info 
 le bot a etais fait a l'aide d'un autre bot similaire mais malle fait je les donc modifier pour le rendre simple a configurer
-si vous voulez plus soutenez moi sur [patreon](https://www.patreon.com/ILowayn) (j'ai fait tout un doc pour comment l'utiliser <3)
+si vous voulez plus soutenez moi sur [patreon](https://www.patreon.com/ILowayn) (j'ai fait tout un doc pour comment l'utiliser <3)  
 Hebergeur gratuit , ou support sur [NearHost](https://discord.gg/EzUK8ywvWp) lien discord
 
 # information du bot
