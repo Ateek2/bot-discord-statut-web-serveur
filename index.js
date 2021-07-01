@@ -90,6 +90,6 @@ client.on('ready', () => {
         })
         })
         })
-        }, 1000 * 300) //update every 4 min (why 2 min you can ddos but dont doit)
+        }, 1000 * 300) 
     })
 })
