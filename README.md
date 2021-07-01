@@ -1,6 +1,6 @@
 # info 
 le bot a etais fait a l'aide d'un autre bot similaire mais malle fait je les donc modifier pour le rendre simple a configurer
-si vous voulez plus soutenez moi sur [patreon](https://www.patreon.com/ILowayn)   
+si vous voulez plus soutenez moi sur [patreon](https://www.patreon.com/ILowayn) (j'ai fait tout un doc pour comment l'utiliser <3)
 Hebergeur gratuit , ou support sur [NearHost](https://discord.gg/EzUK8ywvWp) lien discord
 
 # information du bot
@@ -69,3 +69,8 @@ vous ne pouvez pas faire de copier coller de ces parametre  car il faut les deff
 ```
 # autre type de configuration 
 le bot feras une actualisation par default de 5 min si vous voullez changer il faudras modifier la ligne ``93`` de ``Index.js``
+a la ligne ``58-59`` vous pourez changer le ou la couleur , emojy pour definire le on et off 
+de la ligne ``15 a 31`` definie les variable dans le ``config.json`` 
+de la ligne ``60 a 67`` definie si l'ip a repondue au ping ou non 
+de la ligne ``53 a 57`` montre les info du ping dans la console ou terminal
+de la ligne ``43 a 52`` tcpp fait  le ping au varable donais dans le ``config.json`` 
