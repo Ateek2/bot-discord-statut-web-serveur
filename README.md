@@ -1,6 +1,6 @@
 # info 
 le bot a etais fait a l'aide d'un autre bot similaire mais malle fait je les donc modifier pour le rendre simple a configurer
-si vous voulez plus faite mois soutenez mois [patreon](https://www.patreon.com/ILowayn)
+si vous voulez plus soutenez moi [patreon](https://www.patreon.com/ILowayn)
 
 # information du bot
 le bot et capable d'afficher les statut de vos sites ou serveurs (gmod,fivem,autre) via l'intermédiaire d'un bot Discord.
