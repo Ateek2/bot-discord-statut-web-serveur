@@ -29,7 +29,7 @@ mais il et privé de tousse je les donc fait pour que les future fondateur ou de
  - !! attention avant de demare assure vous que votre bot disposse des droit admin dans votre serveur discord sinon sa marche pas !!
  - demare le bot avec ``start.bat``
 
--- Linux (je ne sui pas sure a 100% vue que j'utiliser un RPI4)
+-- Linux (non testé !)
  - faite ``wget https://github.com/Ateek2/bot-discord-statut-web-serveur/archive/refs/heads/main.zip``
  - extraire le fichier avec la commende ``tar bot-discord-statut-web-serveur.zip``
  - allez dans le fichier avec ``cd bot-discord-statut-web-serveur``
