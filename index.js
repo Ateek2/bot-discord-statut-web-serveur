@@ -38,8 +38,11 @@ client.on("ready", () => {
             setInterval(async () => {
                 let results = {};
 
+                // On récupère les 3 premiers services seulement (Question de place dans l'embed)
+                let serviceNames = Object.keys(services).slice(0, 3);
+
                 // Chargement des résultat dans "results"
-                for (let category in services) {
+                for (let category of serviceNames) {
                     // Pour chaque category on recupére les 2 premiers services max
                     let categoryServices = services[category].slice(0, 2);
 
@@ -69,18 +72,36 @@ client.on("ready", () => {
                     results[category] = categoryServices;
                 }
 
-                return console.log(results);
-
                 pingEmbed = new MessageEmbed()
                     .setTitle("Statut Des Infrastructure :")
-                    .setColor(``)
-                    .addField("_ _", "_ _", true)
-                    .addField(`☁️** — Sites WEB:** `, `${web}` + `\n ${web0}`)
-                    .addField("_ _", "_ _", true)
-                    .addField(`💻** — VPS:** `, `${vps}` + `\n ${vps0}`)
-                    .addField("_ _", "_ _", true)
-                    .addField(`📡** — Serveur Dédié:** `, `${node}`)
-                    .addField("_ _", "_ _", true)
+                    .setColor(``);
+
+                // Ajout des résultats dans l'embed
+                for (let category in results) {
+                    let categoryServices = results[category];
+
+                    pingEmbed.addField(
+                        category,
+                        // Formattage des resultats
+                        categoryServices.map(
+                            (service) =>
+                                "`" +
+                                (service.online ? "🟢" : "⚫") +
+                                "` | " +
+                                (service.website
+                                    ? `[${service.name}](${service.ip})`
+                                    : service.name) +
+                                (service.online
+                                    ? ` (${service.pingResult.avg}ms)`
+                                    : "")
+                        ),
+                        true
+                    );
+
+                    pingEmbed.addField("_ _", "_ _", true);
+                }
+
+                pingEmbed
                     .addField(
                         ` Dernière actualisation :`,
                         `${new Date().toLocaleString("fr-FR", {
@@ -89,7 +110,7 @@ client.on("ready", () => {
                     )
                     .addField(
                         `» Légende :`,
-                        `${online} = Service opérationnel \n${offline} = Service hors-ligne \n [Support ME](https://www.patreon.com/ILowayn) `
+                        `🟢 = Service opérationnel \n⚫ = Service hors-ligne \n [Support ME](https://www.patreon.com/ILowayn) `
                     )
                     .setThumbnail("")
                     .setFooter(``);
