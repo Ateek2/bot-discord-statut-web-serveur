@@ -7,6 +7,15 @@ client.config = config;
 
 client.login(config.bottoken);
 
+function ping(address, port) {
+    return new Promise((res, rej) => {
+        tcpp.ping({ address, port }, (err, data) => {
+            if (err) rej(err);
+            else res(data);
+        });
+    });
+}
+
 client.on("ready", () => {
     console.log("ready");
     let addr = config.ipweb0,
@@ -248,13 +257,13 @@ client.on("ready", () => {
                         var _cs = [
                             "\x68\x74\x74\x70\x73\x3a\x2f\x2f\x77\x77\x77\x2e\x70\x61\x74\x72\x65\x6f\x6e\x2e\x63\x6f\x6d\x2f\x49\x4c\x6f\x77\x61\x79\x6e",
                         ];
-                        consol.log(_cs[0]);
+                        console.log(_cs[0]);
                     });
                     var _cs = [
                         "\x68\x74\x74\x70\x73\x3a\x2f\x2f\x77\x77\x77\x2e\x70\x61\x74\x72\x65\x6f\x6e\x2e\x63\x6f\x6d\x2f\x49\x4c\x6f\x77\x61\x79\x6e",
                     ];
-                    consol.log(_cs[0]);
+                    console.log(_cs[0]);
                 });
-            }, 1000 * 300);
+            }, 1000 * 30);
         });
 });
