@@ -1,49 +1,24 @@
 {
-    "bottoken": "",
-    "setchannel": "",
+    "bottoken": "", 
+    "setchannel": "", 
 
-    "_comment": "Le nom du service est la clé qui donne un tableau de service, chaque service possède les mêmes infos (nom, ip, port)",
-    "services": {
-        "☁️** — Sites WEB:**": [
-            {
-                "name": "Google",
-                "ip": "google.com",
-                "port": 80,
-                "website": true
-            },
-            {
-                "name": "Google",
-                "ip": "google.coincoin",
-                "port": 80,
-                "website": true
-            },
-            {
-                "name": "Google",
-                "ip": "google.com",
-                "port": 80,
-                "website": true
-            }
-        ],
+    "nameweb0": "google.com",  
+    "ipweb0": "google.com", 
+    "portweb0": "80",
 
-        "💻** — VPS:**": [
-            {
-                "name": "Google",
-                "ip": "google.com",
-                "port": 80
-            },
-            {
-                "name": "Google",
-                "ip": "google.com",
-                "port": 80
-            }
-        ],
+    "nameweb1": "youtube.com",  
+    "ipweb1": "youtube.com", 
+    "portweb1": "80",
 
-        "📡** — Serveur Dédié:**": [
-            {
-                "name": "Google",
-                "ip": "google.com",
-                "port": 80
-            }
-        ]
-    }
+    "namevps0": "google.com",  
+    "ipvps0": "google.com", 
+    "portvps0": "80",
+
+    "namevps2": "google.com",  
+    "ipvps2": "google.com",
+    "portvps2": "80",
+
+    "namenode0": "google.com",  
+    "ipnode0": "google.com",
+    "portnode0": "80"
 }
