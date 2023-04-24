@@ -1,6 +1,6 @@
 {
-    "bottoken": "", 
-    "setchannel": "", 
+    "bottoken": "votre bot token ici", 
+    "setchannel": "l'id du salon", 
 
     "nameweb0": "google.com",  
     "ipweb0": "google.com", 
