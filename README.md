@@ -6,8 +6,8 @@ si vous voulez plus soutenez moi sur [patreon](https://www.patreon.com/ILowayn) 
 support sur [Genesis](https://discord.gg/yuEy6W7) lien discord
 
 # information du bot
-le bot et capable d'afficher les statut de vos sites ou serveurs (gmod,fivem,autre)   
-il et tres simple a configure et a modifier . 
+le bot et capable d'afficher les statut de vos sites ou serveurs (gmod ,fivem ,site web)   
+il et tres simple a configure et a modifier et a customise  
 # Image
 la version que vous aurez sera comme ça  
 
