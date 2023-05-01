@@ -2,7 +2,7 @@
 (!!!!IMPORTANT!!!!  ---  Je ne meterais pas a jour le bot car il et deja parfait ces a vous de l'améliorer vous même ou dutiliser la version de @ByWezZ ou @Ilowayn )
 
 le bot a etais fait a l'aide d'un autre bot similaire mais malle fait je les donc modifier pour le rendre simple a configurer
-si vous voulez plus soutenez moi sur [patreon](https://www.patreon.com/ILowayn) (j'ai fait tout un doc pour comment l'utiliser <3 chaque 100 euro de dont j'upload un bot prive en publique ! )  
+si vous voulez plus soutenez moi sur [patreon](https://www.patreon.com/ILowayn) (j'ai fait tout un doc pour comment l'utiliser alors  )  
 support sur [Genesis](https://discord.gg/yuEy6W7) lien discord
 
 # information du bot
